@@ -11,8 +11,6 @@ RegisterCommand('vente', function(source, args, rawCommand)
     local pos = GetEntityCoords(PlayerPedId())
     local name = GetNameOfZone(pos.x, pos.y, pos.z)
 
-    print(name)
-
     for _, v in pairs(Config.Zones) do
 
         if v == name then

@@ -9,8 +9,6 @@ Config.drugs = {
     {label = 'Opium', name = 'opium', price = 600},
 }
 
--- Config.maxToSell = 10
-
 Config.Zones = { -- List of all Zones : https://docs.fivem.net/natives/?_0xCD90657D4C30E1CA
 
     'SANDY',
